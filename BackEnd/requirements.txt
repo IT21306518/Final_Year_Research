@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+bcrypt
+yfinance
+joblib
+numpy
+tensorflow
+scikit-learn
+pandas
+google-cloud-firestore
