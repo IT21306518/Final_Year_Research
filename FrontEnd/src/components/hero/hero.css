@@ -1,0 +1,57 @@
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    background-color: #ffdc00;
+    height: 60vh;
+    position: relative;
+    color: #fff;
+  }
+  
+  .hero-content {
+    /* flex: 2; */
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(0 0, calc(100% - 260px) 0, 100% 100%, 0 100%);
+    
+  }
+  
+  .hero-title {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-title-md {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5em;
+    margin: 0;
+    color: var(--warning);
+  }
+  
+  .hero-image {
+    height: 90%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 99;
+    right: -60vw;
+  }
